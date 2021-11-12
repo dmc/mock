@@ -11,7 +11,7 @@ const error = (param) => {
 
 express()
 .get("/", (req, res) =>{
-  const response = {"endpoints": ["/bad","/forbidden","/notfound","/true", "/false"]}
+  const response = {"endpoints": ["/bad","/forbidden","/notfound","/true","/false"]}
   res.json(response);
 })
 .get("/true", (req, res) =>{
