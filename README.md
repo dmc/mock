@@ -31,19 +31,19 @@ then returned http status 200. and body is
 https://mocken.herokuapp.com/bad
 then returned http status 400. and body is 
 ```
-{"error": "bad request"}
+{"error":"bad request"}
 ```
 
 https://mocken.herokuapp.com/forbidden
 then returned http status 403. and body is 
 ```
-{"error": "forbidden"}
+{"error":"forbidden"}
 ```
 
 https://mocken.herokuapp.com/notfound
 then returned http status 404. and body is 
 ```
-{"error": "not found"}
+{"error":"not found"}
 ```
 
 ## Deploying to Heroku
